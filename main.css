@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*I didn't find "Graphic Web" font. That's why I use another google font.*/
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Arimo', sans-serif;
+}
+
+.card {
+    position: absolute;
+    width: 293px;
+    height: 401px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-radius: 4px;
+}
+
+.card__header--main {
+    position: absolute;
+    width: 223px;
+    height: 22px;
+    left: 35px;
+    top: 40px;
+    line-height: 22px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3e3934;
+}
+
+.card__header--sub {
+    position: absolute;
+    width: 223px;
+    height: 12px;
+    left: 35px;
+    top: 67px;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #9f9c9a;
+}
+
+.card__section-order {
+    position: absolute;
+    width: 223px;
+    height: 12px;
+    left: 35px;
+    top: 142px;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.card__section-order-text {
+    color: #9f9c9a;
+}
+
+.card__section-order-link {
+    text-decoration: none;
+    color: #0096d7;
+}
+
+.card__line {
+    position: absolute;
+    width: 293px;
+    height: 0px;
+    left: 0px;
+    top: 169px;
+    border: 1px solid #e9e9ec;
+}
+
+.card__logo--main {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 125px;
+    top: 190px;
+    background: url(images/Freestyle__Multimdia_e_Design_189821_1507368689_zaask.png);
+    border: 1px solid #e9e9ec;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-radius: 115px;
+    background-size: cover;
+}
+
+.card__logo--sub-1 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 149px;
+    top: 188px;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.card__logo--sub-2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 149px;
+    top: 188px;
+    background: #ff4444;
+    border-radius: 7px;
+}
+
+.card__available-workers-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: calc(50% - 238px / 2 + 0.5px);
+    top: calc(50% - 37px / 2 + 68px);
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #9f9c9a;
+    border-radius: 4px;
+}
+
+.card__btn {
+    position: absolute;
+    left: 23.21%;
+    right: 23.21%;
+    top: 78.3%;
+    bottom: 11.72%;
+    background: #0096d7;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.card__btn:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.card__btn:active {
+    transform: translateY(2px);
+}
+
+.card__btn-text {
+    width: 97px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    margin: 8px auto;
+}
+
+.card__new-order-link {
+    position: absolute;
+    width: 223px;
+    height: 12px;
+    left: 35px;
+    top: 369px;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #0096d7;
+    text-decoration: none;
+}
